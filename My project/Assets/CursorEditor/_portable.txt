@@ -1,0 +1,8 @@
+The application behaves in portable way if
+* portable.txt file exists in the application folder OR
+* if there is an AppData subfolder in the application folder.
+
+To cancel portable mode, delete the the AppData folder AND rename portable.txt
+file to something else (for example _portable.txt).
+
+In portable mode, all information is stored in the AppData folder.
